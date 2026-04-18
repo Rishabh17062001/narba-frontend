@@ -11,7 +11,7 @@ import {
   View,
 } from 'react-native';
 
-const API_URL = 'http://10.0.2.2:5000';
+const API_URL = 'https://narba.onrender.com';
 
 export default function App() {
   const [tasks, setTasks] = useState([]);
